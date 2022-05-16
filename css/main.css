@@ -148,11 +148,11 @@ p {
 }
 
 img {
-
+	width: 100%;
 }
 
 figure {
-
+        margin: 0;
 }
 
 address {
@@ -183,11 +183,19 @@ header {
 }
 
 header .content-wrapper {
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  margin:0;
+}
+
+header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
 .header-divider {
@@ -259,6 +267,10 @@ footer .copyright {
 /* Homepage */
 
 .hero-area {
+  background: url(../img/unplugged-retreat.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -273,6 +285,8 @@ footer .copyright {
 /* Aside */
 
 aside {
+  background: url('../img/girl-on-bridge.jpg') center no-repeat #333;
+  background-size: cover;
   background-color: #527158;
   display: flex;
   justify-content: center;
@@ -312,6 +326,9 @@ input[type=button] {
 /* Features */
 
 .features {
+  background: url('../img/forest.jpg');
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -335,6 +352,8 @@ input[type=button] {
 
 .features p {
   margin: 0;
+  text-align: center;
+
 }
 
 /* Reviews */
@@ -525,9 +544,6 @@ input[type=button] {
   margin: 100px 0;
 }
 
-
-
-
 h2 {
   font-size: 2.25em;
   line-height: 1.33;
@@ -571,12 +587,17 @@ header nav ul {
 }
 
 /* Hero Area */
+.hero-area {
+  min-height: 600px;
+}
+
 .hero-area h1 {
   font-size: 3em;
   line-height: 1;
   margin: 0;
 }
 /* Aside */
+
 aside .content-wrapper {
   margin: 50px 0;
   display: flex;
@@ -717,6 +738,10 @@ footer .copyright {
 /*Desktop styles here*/
 
 /* General styles */
+
+header figure {
+    width: 25%;
+}
 
 ul,
 ol {
