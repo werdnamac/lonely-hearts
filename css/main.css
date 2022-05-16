@@ -827,12 +827,35 @@ aside .content-wrapper .form {
 /* ==========================================================================
 About Page
 ========================================================================== */
-
-.mission h2,
-.contact-section .content-wrapper h2 {
-    width: 95%;
+.mission-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
 }
 
+.mission-content p {
+  width: 45%;
+}
+
+.map figure {
+  padding-bottom: 45.5%;
+}
+
+
+.contact-section .content-wrapper h2 {
+  width: 80%;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.contact-content h4 {
+  font-size: 1.5em;
+}
 /* ==========================================================================
 FAQ Page
 ========================================================================== */
