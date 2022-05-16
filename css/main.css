@@ -639,12 +639,12 @@ aside .content-wrapper .form {
   justify-content: space-between;
 }
 
-.reviews figure img {
-  width: 80%;
+.reviews figure {
+  width: 49%;
 }
 
 .reviews article div {
-  width: 100%;
+  width: 49%;
 }
 
 .reviews h3 {
