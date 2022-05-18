@@ -640,11 +640,14 @@ aside .content-wrapper .form {
   justify-content: space-between;
   align-items: center;
   flex-flow: column wrap;
-
+  flex-basis: 50%;
 }
 
 .features .features-item-description {
-    width: 62%;
+    width: 65%;
+    <!-- long paragraphs, so change flex to start --!>
+    display: flex;
+    align-items: start;
 }
 
 /* Reviews */
