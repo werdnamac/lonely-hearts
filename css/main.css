@@ -701,6 +701,10 @@ footer .contact {
   margin-bottom: 0;
 }
 
+footer .social-icons p {
+  margin: 10px;
+}
+
 footer .copyright {
   width: 100%;
 }
