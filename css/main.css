@@ -237,6 +237,7 @@ footer {
 
 footer p {
   margin: 0;
+  padding: 0;
 }
 
 footer .content-wrapper {
@@ -651,6 +652,7 @@ aside .content-wrapper .form {
 }
 
 /* Reviews */
+
 .reviews h2 {
   width: 90%;
 }
@@ -658,6 +660,9 @@ aside .content-wrapper .form {
 .reviews article {
   display: flex;
   justify-content: space-between;
+  margin-top: 0;
+  padding-top: 0;
+
 }
 
 .reviews figure {
@@ -671,6 +676,13 @@ aside .content-wrapper .form {
 .reviews h3 {
   width: 75%;
   margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.reviews p {
+  padding-top: 0;
+  margin-top: 0;
 }
 
 /*Footer*/
@@ -722,6 +734,7 @@ footer .copyright {
 
 .mission-content p {
     width: 45%;
+    
 }
 
 .mission .content-wrapper h2 {
@@ -828,13 +841,30 @@ aside .content-wrapper .form {
   width: 90%;
 }
 
+.features-items {
+  display: flex;
+  align-items: start;
+}
 .features article {
+  display: flex;
   flex-basis: 33%;
+
 }
 
+.features .features-item-description {
+    width: 85%;
+    <!-- long paragraphs, so change flex to start --!>
+    display: flex;
+    align-items: start;
+}
+
+.features .font-awesome-icon {
+  display: flex;
+  align-items: start;
+}
 /* Reviews */
 .reviews article div {
-  width: 42%;
+  width: 48%;
 }
 
 /* ==========================================================================
