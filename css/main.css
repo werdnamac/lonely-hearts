@@ -458,8 +458,16 @@ input[type=button] {
   margin-bottom:50px;
 }
 
-.faq-content h4 {
+
+.faq h4 {
+  font-size: 1.3em;
   line-height: 1.333;
+}
+
+
+.faq p {
+    font-size: 1.1em;
+    line-height: 1.333;
 }
 
 /* ==========================================================================
@@ -770,21 +778,28 @@ footer .copyright {
    ========================================================================== */
 .faq .content-wrapper {
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 .faq-content {
-    flex-basis: 45%;
+    flex-basis: 47%;
 }
 
 .faq h2 {
     width: 100%;
 }
 
-.faq h4,
-.faq p {
-    font-size: .875em;
-    line-height: 1.125;
+.faq h4 {
+  font-size: 1.6em;
+
 }
+
+
+.faq p {
+    font-size: 1.4em;
+
+}
+
 
 }
 
@@ -921,7 +936,19 @@ FAQ Page
 ========================================================================== */
 .faq h2 {
   width: 100%;
+  font-size: 3em;
 }
+.faq h4 {
+  font-size: 2em;
+
+
+}
+
+.faq p {
+    font-size: 1.3em;
+    line-height: 1.2;
+}
+
 
 }
 /* End of desktop styles */
