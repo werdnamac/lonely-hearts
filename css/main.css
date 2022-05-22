@@ -256,9 +256,17 @@ footer .social-icons {
 }
 
 footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
+}
+
+footer .social-icons p i {
+  font-size: 1.3125em;
 }
 
 footer .copyright {
@@ -713,14 +721,14 @@ footer .contact {
   margin-bottom: 0;
 }
 
-footer .social-icons p {
-  margin: 10px;
+footer .social-icons {
+  width: 12.5em;
+  justify-content: space-between;
 }
 
 footer .copyright {
   width: 100%;
 }
-
 /* ==========================================================================
    About Page
    ========================================================================== */
@@ -734,7 +742,7 @@ footer .copyright {
 
 .mission-content p {
     width: 45%;
-    
+
 }
 
 .mission .content-wrapper h2 {
@@ -841,10 +849,11 @@ aside .content-wrapper .form {
   width: 90%;
 }
 
-.features-items {
+.features .features-items {
   display: flex;
-  align-items: start;
+  align-items: flex-start;
 }
+
 .features article {
   display: flex;
   flex-basis: 33%;
@@ -867,13 +876,19 @@ aside .content-wrapper .form {
   width: 48%;
 }
 
+/* footer */
+
+footer h4 {
+  font-size: 1.875em;
+}
+
 /* ==========================================================================
 About Page
 ========================================================================== */
 .mission-content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
   padding-top: 20px;
 }
 
